@@ -1,0 +1,343 @@
+.footeranchor:hover {text-decoration: underline; color: #aaa;}
+
+#banner-head {
+    margin-top:-20px;
+    background: #335687;
+    padding: 30px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    color: #fff;
+}
+
+#banner-head h1.smaller {
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 4px;
+	font-size: 32px;
+	font-weight: 200;
+}
+
+.page-header {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+#banner-head a {color: #fff;}
+
+
+a.api-logo {
+    background: url('../img/circle-cloud.png') no-repeat 0px 0px;
+    padding: 5px 70px;
+}
+
+.resource-section {
+    background: #dedede;
+    border-radius: 0;
+    margin: 5px;
+    margin-top: 24px;
+    padding: 5px;
+    width: 100%;
+}
+
+.resource-section h4 {
+	color: #666;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 10px;
+    padding-bottom: 10px;
+	border-bottom: 1px dotted #bbb;
+}
+
+.resource-section ul.unstyled {margin-left: 10px;}
+
+.more_btn:hover {
+    text-decoration: underline;
+    cursor: hand; 
+    cursor: pointer;
+}
+
+.less_btn:hover {
+    text-decoration: underline;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.result{border-bottom:1px solid #e6e6e6; margin:10px 10px;padding:5px 0 5px 0px;}
+.result-title{margin-bottom:2px;}
+.result-link{display:block;margin-top:15px;padding-left:20px;font-size:83%;text-decoration:underline;}
+.result-snippet{padding-left:20px;font-size:90%;}
+.result-link{padding-left:40px;display:block;width:90%;word-wrap:break-word;}
+h5.github:before,h5.docs:before,h5.devops:before,h5.rackspace:before,h5.community:before{margin-right:10px;position:relative;top:13px;display:inline-block;height:22px;width:29px;overflow:hidden;background:url("http://4dc1562a455e7bbf7090-44d3937fd019508990d0935859ee629c.r56.cf1.rackcdn.com/img/doc-types-sprite.png");content:'';}
+h5.github:before{background-position:0 -169px;}
+h5.docs:before{background-position:0 -100px;}
+h5.devops:before{background-position:0 -67px;}
+h5.rackspace:before{background-position:0 -33px;}
+h5.community:before{background-position:0 -134px;}
+h5.sdk:before{background-position:0 0;}
+
+.internalicon {
+    display:block;
+    position:relative;
+    width:15px;
+    height:15px;
+    float:right;
+    bottom:0px;
+    right:0px;	
+}
+
+.reviewericon {
+    display:block;
+    position:relative;
+    width:15px;
+    height:15px;
+    float:right;
+    bottom:0px;
+    right:0px;	
+}
+
+.internalreviewer {font-family: verdana;}
+
+/* NOSCRIPT MESSAGE */
+
+@media screen {
+
+	.noscript-message-wrapper {
+		background: #c40022;
+		color: #fff;
+		padding: 13px;
+	}
+
+	.noscript-message-container, .noscript-footer-container {
+		width: 960px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.noscript-message-container p {
+		font-family:'Source Sans Pro', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+	}
+
+	.noscript-message-container a {color: #fff;}
+
+	.noscript-header-wrapper {
+		background: black;
+		color: #fff;
+		padding: 13px;
+	}
+
+	.noscript-header-wrapper .noscript-message-container {text-align: center;}
+
+}
+
+/* START MODIFIED CLASSES: Jonathan Stovall 2014-06-17 */
+
+.more_btn {
+    font-weight: bold;
+    background: url('http://docs.rackspace.com/common/img/chev-down.png') no-repeat 40px center;
+}
+
+.less_btn {
+    font-weight: bold;
+    background: url('http://docs.rackspace.com/common/img/chev-up.png') no-repeat 40px center;
+}
+
+/* END MODIFIED CLASSES: Jonathan Stovall 2014-06-17 */
+
+
+
+/* START NEW CLASSES: Jonathan Stovall 2014-06-17 */
+
+body {min-width: 960px;}
+
+#main-content {
+	padding-top: 20px;
+	font-family:'Source Sans Pro', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+#main-content h2 {
+	font-weight: 400;
+	color: #666;
+	font-size: 26px;
+	line-height: 18px;
+    padding-bottom: 10px;
+    margin: 70px 0 20px 0;
+	border-bottom: 1px dotted #bbb;
+}
+
+#main-content h2:first-child {margin-top: 0;}
+#main-content li {margin-bottom: 3px;}
+
+#main-content .row-fluid {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#main-content .span8 {margin-top: 15px;}
+	
+#main-content .span4 {
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#main-content .span4.servers {
+	background-image: url('icon-servers.png');
+    background-image: none, url('icon-servers.svg');
+}
+
+#main-content .span4.servers-fg {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.files {
+	background-image: url('icon-files.png');
+    background-image: none, url('icon-files.svg');
+}
+
+#main-content .span4.databases {
+	background-image: url('icon-databases.png');
+    background-image: none, url('icon-databases.svg');
+}
+
+#main-content .span4.load-balancers {
+	background-image: url('icon-load-balancers.png');
+    background-image: none, url('icon-load-balancers.svg');
+}
+
+#main-content .span4.block-storage {
+	background-image: url('icon-block-storage.png');
+    background-image: none, url('icon-block-storage.svg');
+}
+
+#main-content .span4.dns {
+	background-image: url('icon-dns.png');
+    background-image: none, url('icon-dns.svg');
+}
+
+#main-content .span4.backup {
+	background-image: url('icon-backup.png');
+    background-image: none, url('icon-backup.svg');
+}
+
+#main-content .span4.monitoring {
+	background-image: url('icon-monitoring.png');
+    background-image: none, url('icon-monitoring.svg');
+}
+
+#main-content .span4.networks {
+	background-image: url('icon-networks.png');
+    background-image: none, url('icon-networks.svg');
+}
+
+#main-content .span4.identity {
+	background-image: url('icon-identity.png');
+    background-image: none, url('icon-identity.svg');
+}
+
+#main-content .span4.cdn {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.keep {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.queues {
+	background-image: url('icon-queues.png');
+    background-image: none, url('icon-queues.svg');
+}
+
+#main-content .span4.auto-scale {
+	background-image: url('icon-auto-scale.png');
+    background-image: none, url('icon-auto-scale.svg');
+}
+
+#main-content .span4.big-data {
+	background-image: url('icon-big-data.png');
+    background-image: none, url('icon-big-data.svg');
+}
+
+#main-content .span4.images {
+	background-image: url('icon-images.png');
+    background-image: none, url('icon-images.svg');
+}
+
+#main-content .span4.orchestration {
+	background-image: url('icon-orchestration.png');
+    background-image: none, url('icon-orchestration.svg');
+}
+
+#main-content .span4.private-cloud {
+	background-image: url('icon-private-cloud.png');
+    background-image: none, url('icon-private-cloud.svg');
+}
+
+#main-content .span4.foundations {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.prod_svcs {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.repose {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.reach {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.feeds {
+	background-image: url('icon-cloudfeeds.png');
+    background-image: none, url('icon-cloudfeeds.png');
+    background-size: 42px 42px;
+}
+
+#main-content .span4.tickets {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.deployments {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.internal-process {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4.hostedemail {
+	background-image: url('icon-servers-fg.png');
+    background-image: none, url('icon-servers-fg.svg');
+}
+
+#main-content .span4 h3 {
+	margin: 0 0 10px;
+	padding-left: 50px;
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 16px;
+	color: #666;
+}
+
+#main-content .span4 h3 span {
+	font-weight: 400;
+	display: block;
+	font-size: 13px;
+}
+
+
+/* END NEW CLASSES: Jonathan Stovall 2014-06-17 */

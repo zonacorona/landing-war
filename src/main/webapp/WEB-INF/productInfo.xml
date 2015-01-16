@@ -1,0 +1,760 @@
+<?xml version="1.0"?>
+<!-- 
+  <categoryName> indicates the Top level category, each product belongs to exactly 1 category
+  <categoryOrder> indicates where the category should appear, the categoryName and categoryOrder should match
+  for all products with the same categoryName
+  on the page while <categorySequence> should indicate where where the product appears within the category 
+-->
+<products>
+    <!-- Comput Services Products -->
+	<product>
+	    <!-- uniquely identifies a given Product -->
+		<id>servers-v2</id>
+		<!-- 
+		  The Category that a Product belong under, this text appears once in index.jsp for all Products with the same
+		  CategoryName
+		 -->
+        <categoryName>Compute Services</categoryName>
+        <!-- 
+          This dictates the order of Category's appearance in the list of Categories. Note: all Products under the same
+          CategoryName must have the same categoryOrder
+         -->
+        <categoryOrder>100</categoryOrder>
+        <!-- 
+          This dictates the order of the Product's appearance in the list of Products under a given Category
+         -->
+        <categorySequence>100</categorySequence>	        	
+		<productLogo>servers</productLogo>
+		<!-- Text that appears next to the Logo -->
+		<productClassification>Cloud</productClassification>
+		<!-- Bold text next to the logo -->
+		<name>Servers</name>
+		<!-- Kept for historical purposes, it use to cause the trademark symbol to appear next to the Product name -->
+		<hasTradeMark>true</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Servers product page</title>
+		<url>http://docs.rackspace.com/servers/api/v2/cs-releasenotes/content/index.html
+		</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+		    <!-- 
+		    This is maintained for historical purposes, and because the SDKs and Resources Products still uses this
+		    in index.jsp, make sure that categorySequence and order are the same
+		    -->
+			<column>1</column>
+			<order>100</order>
+		</sequence>
+		<sectionId>ngservers</sectionId>
+	</product>		
+	<product>
+		<id>servers-v1.0</id>
+        <categoryName>Compute Services</categoryName>
+        <categoryOrder>100</categoryOrder>	
+        <categorySequence>200</categorySequence>		
+		<productLogo>servers-fg</productLogo>
+		<productClassification>Cloud</productClassification>
+		<name>First Gen Servers</name>
+		<hasTradeMark>true</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Servers product page</title>
+		<url>http://www.rackspace.com/cloud/cloud_hosting_products/servers/
+		</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers-fg.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers-fg.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>200</order>
+		</sequence>
+		<sectionId>servers</sectionId>
+	</product>	
+	<product>
+		<id>images-v2</id>
+        <categoryName>Compute Services</categoryName>
+        <categoryOrder>100</categoryOrder>	
+        <categorySequence>300</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>images</productLogo>
+		<name>Images</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about Cloud Images</title>
+		<url>http://www.rackspace.com</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>300</order>
+		</sequence>
+		<sectionId>images-v1.0</sectionId>
+	</product>
+    <!-- Network Services Products -->	
+	<product>
+		<id>loadbalancers-v1.0</id>
+        <categoryName>Network Services</categoryName>
+        <categoryOrder>200</categoryOrder>	
+        <categorySequence>100</categorySequence>					
+		<productClassification>Cloud</productClassification>
+		<productLogo>load-balancers</productLogo>
+		<name>Load Balancers</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Load Balancers product page
+		</title>
+		<url>http://www.rackspace.com/cloud/cloud_hosting_products/loadbalancers/
+		</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-load-balancers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-load-balancers.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>100</order>
+		</sequence>
+		<sectionId>loadbalancers</sectionId>
+	</product> 
+	<product>
+		<id>networks-v2</id>
+        <categoryName>Network Services</categoryName>
+        <categoryOrder>200</categoryOrder>	
+        <categorySequence>400</categorySequence>	
+		<productClassification>Cloud</productClassification>
+		<productLogo>networks</productLogo>
+		<name>Networks</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title></title>
+		<url></url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-networks.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-networks.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>400</order>
+		</sequence>
+		<sectionId>networks</sectionId>
+	</product>	   
+    <product>
+		<id>rackconnect-v3</id>
+        <categoryName>Network Services</categoryName>
+        <categoryOrder>200</categoryOrder>	
+        <categorySequence>300</categorySequence>	
+		<productClassification>Rackspace</productClassification>
+		<productLogo>rackconnect</productLogo>
+		<name>RackConnect</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title></title>
+		<url></url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-rackconnect.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-rackconnect.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>300</order>
+		</sequence>
+		<sectionId>networks</sectionId>
+	</product>	
+	<product>
+		<id>cdns-v1.0</id>
+        <categoryName>Network Services</categoryName>
+        <categoryOrder>200</categoryOrder>	
+        <categorySequence>200</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>dns</productLogo>
+		<name>DNS</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud DNS product page</title>
+		<url>http://www.rackspace.com/cloud/cloud_hosting_products/dns/</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>200</order>
+		</sequence>
+		<sectionId>dns</sectionId>
+	</product>		
+	
+	<!-- Storage & Content Delivery Services Products -->			
+	<product>
+		<id>cbs-v1.0</id>
+        <categoryName>Storage &amp; Content Delivery Services</categoryName>
+        <categoryOrder>300</categoryOrder>	
+        <categorySequence>100</categorySequence>		
+		<productClassification>Cloud</productClassification>
+		<productLogo>block-storage</productLogo>
+		<name>Block Storage</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Block Storage product page
+		</title>
+		<url>http://www.rackspace.com/cloud/public/blockstorage</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-block-storage.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-block-storage.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>100</order>
+		</sequence>
+		<sectionId>cbs</sectionId>
+	</product>
+	<product>
+		<id>files-v1</id>
+        <categoryName>Storage &amp; Content Delivery Services</categoryName>
+        <categoryOrder>300</categoryOrder>	
+        <categorySequence>200</categorySequence>		
+		<productClassification>Cloud</productClassification>
+		<productLogo>files</productLogo>
+		<name>Files</name>
+		<hasTradeMark>true</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Files product page</title>
+		<url>http://www.rackspace.com/cloud/cloud_hosting_products/files/
+		</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>200</order>
+		</sequence>
+		<sectionId>files</sectionId>
+	</product>
+	<product>
+		<id>cdn-v1.0</id>
+        <categoryName>Storage &amp; Content Delivery Services</categoryName>
+        <categoryOrder>300</categoryOrder>	
+        <categorySequence>300</categorySequence>		
+		<productClassification>Rackspace</productClassification>
+		<productLogo>cdn</productLogo>
+		<name>CDN</name>
+		<hasTradeMark>true</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud CDN product page</title>
+		<url>http://www.rackspace.com/cloud/cdn-content-delivery-network/
+		</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>300</order>
+		</sequence>
+		<sectionId>cdn</sectionId>
+	</product>		
+    <product>
+      <id>cdn-v1.0</id>
+      <categoryName>Storage &amp; Content Delivery Services</categoryName>
+      <categoryOrder>300</categoryOrder>	
+      <categorySequence>300</categorySequence>      
+      <productClassification>Cloud</productClassification>
+      <productLogo>cdn</productLogo>
+      <name>CDN</name>
+      <hasTradeMark>false</hasTradeMark>
+      <title>Click for more information about Cloud CDN</title>
+      <url>http://www.rackspace.com</url>
+      <icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+      <icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+      <sequence>
+      <column>2</column>
+      <order>300</order>
+      </sequence>
+      <sectionId>cdn</sectionId>
+    </product>
+		
+   <!-- Database & Data Analytic Services Products -->	
+	<product>
+		<id>cdb-v1.0</id>
+        <categoryName>Database &amp; Data Analytic Services</categoryName>
+        <categoryOrder>400</categoryOrder>	
+        <categorySequence>100</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>databases</productLogo>		
+		<name>Databases</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Databases product page
+		</title>
+		<url>http://www.rackspace.com/cloud/cloud_hosting_products/databases/
+		</url>
+		<author>Author 2</author>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-databases.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-databases.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>100</order>
+		</sequence>
+		<sectionId>databases</sectionId>
+	</product>
+	<product>
+		<id>cbd-v1.0</id>
+        <categoryName>Database &amp; Data Analytic Services</categoryName>
+        <categoryOrder>400</categoryOrder>	
+        <categorySequence>200</categorySequence>		
+		<productClassification>Cloud</productClassification>
+		<productLogo>big-data</productLogo>
+		<name>Big Data</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about Big Data</title>
+		<url>http://www.rackspace.com</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-big-data.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-big-data.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>200</order>
+		</sequence>
+		<sectionId>cbd-v1.0</sectionId>
+	</product>
+
+    <!-- Application Services Products -->
+	<product>
+		<id>cm-v1.0</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>100</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>monitoring</productLogo>
+		<name>Monitoring</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Monitoring product page
+		</title>
+		<url>http://www.rackspace.com/cloud/cloud_hosting_products/monitoring/
+		</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-monitoring.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-monitoring.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>100</order>
+		</sequence>
+		<sectionId>cm</sectionId>
+	</product>    
+	<product>
+	  <id>orchestration-v1</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>200</categorySequence>		  
+	  <productClassification>Cloud</productClassification>
+	  <productLogo>orchestration</productLogo>
+	  <name>Orchestration</name>
+	  <hasTradeMark>false</hasTradeMark>
+	  <title>Click for more information about Cloud Orchestration</title>
+	  <url>http://www.rackspace.com</url>
+	  <icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-orchestration.png</icon1>
+	  <icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-orchestration.svg</icon2>
+	  <sequence>
+	    <column>2</column>
+	    <order>200</order>
+	  </sequence>
+	  <sectionId>orchestration-v1</sectionId>
+	</product>    
+	<product>
+		<id>queues-v1.0</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>300</categorySequence>		
+		<productClassification>Cloud</productClassification>
+		<productLogo>queues</productLogo>
+		<name>Queues</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Queues product page</title>
+		<url />
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-queues.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-queues.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>300</order>
+		</sequence>
+		<sectionId>queues</sectionId>
+	</product>  
+	<product>
+		<id>rcbu-v1.0</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>400</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>backup</productLogo>
+		<name>Backup</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Backup product page</title>
+		<url>http://www.rackspace.com/cloud/backup</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-backup.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-backup.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>400</order>
+		</sequence>
+		<sectionId>cbs</sectionId>
+	</product>	
+	<product>
+		<id>cas-v1.0</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>500</categorySequence>		
+		<productClassification>Rackspace</productClassification>
+		<productLogo>auto-scale</productLogo>
+		<name>Auto Scale</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title />
+		<url />
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-auto-scale.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-auto-scale.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>500</order>
+		</sequence>
+		<sectionId>cas</sectionId>
+	</product>    
+	<product>
+		<id>foundations</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>600</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>foundations</productLogo>
+		<name>Foundations</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about Foundations</title>
+		<url>http://docs-internal.rackspace.com/foundations</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>1</column>
+			<order>600</order>
+		</sequence>
+		<sectionId>foundations</sectionId>
+	</product>
+	<product>
+		<id>prod_svcs</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>700</categorySequence>		
+		<productClassification>Rackspace</productClassification>
+		<productLogo>prod_svcs</productLogo>
+		<name>Product Services</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about Product Services</title>
+		<url>http://docs-internal.rackspace.com/prod_svcs</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>700</order>
+		</sequence>
+		<sectionId>prod_svcs</sectionId>
+	</product>
+	<product>
+		<id>tickets-v1</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>800</categorySequence>		
+		<productClassification>Rackspace</productClassification>
+		<productLogo>tickets</productLogo>
+		<name>Tickets</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about tickets</title>
+		<url>http://docs-internal.rackspace.com</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>800</order>
+		</sequence>
+		<sectionId>tickets</sectionId>
+	</product>
+	<product>
+		<id>process-v1</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>900</categorySequence>		
+		<productClassification>Rackspace</productClassification>
+		<productLogo>internal-process</productLogo>
+		<name>Internal Process</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about doc writing at Rackspace
+		</title>
+		<url>https://one.rackspace.com/display/C3/Writers%27+Guide+for+DocBook-Sourced+Documentation
+		</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>900</order>
+		</sequence>
+		<sectionId>process</sectionId>
+	</product>
+	<product>
+		<id>repose</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>1000</categorySequence>		
+		<productClassification>Product</productClassification>
+		<productLogo>repose</productLogo>
+		<name>Repose</name>
+		<hasTradeMark>true</hasTradeMark>
+		<title>Click for more information about Repose</title>
+		<url>http://openrepose.org</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>1000</order>
+		</sequence>
+		<sectionId>repose</sectionId>
+	</product>
+	<product>
+		<id>atomhopper</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>1100</categorySequence>		
+		<productClassification>Product</productClassification>
+		<productLogo>atomhopper</productLogo>
+		<name>ATOM Hopper</name>
+		<hasTradeMark>true</hasTradeMark>
+		<title>Click for more information about ATOM Hopper</title>
+		<url>http://www.atomhopper.org</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>1100</order>
+		</sequence>
+		<sectionId>atomhopper</sectionId>
+	</product>
+	<product>
+		<id>reach</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>1200</categorySequence>		
+		<productClassification>Rackspace</productClassification>
+		<productLogo>reach</productLogo>
+		<name>Control Panel (Reach)</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about the Reach</title>
+		<url>http://www.rackspace.com</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>1200</order>
+		</sequence>
+		<sectionId>reach</sectionId>
+	</product>			
+	<product>
+	  <id>hostedemail-v1</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>1300</categorySequence>	  
+	  <productClassification>Cloud</productClassification>
+	  <productLogo>hostedemail</productLogo>
+	  <name>Hosted Email</name>
+	  <hasTradeMark>false</hasTradeMark>
+	  <title>Click for more information about Hosted Email</title>
+	  <url>http://www.rackspace.com</url>
+	  <icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+	  <icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+	  <sequence>
+	    <column>2</column>
+	    <order>1300</order>
+	  </sequence>
+	  <sectionId>hostedemail-v1</sectionId>
+	</product>
+	<product>
+		<id>deployments-v1.0</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>1400</categorySequence>		
+		<productClassification>Cloud</productClassification>
+		<productLogo>deployments</productLogo>
+		<name>Deployments</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about Cloud Deployments</title>
+		<url>http://www.rackspace.com</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>1400</order>
+		</sequence>
+		<sectionId>deployments-v1.0</sectionId>
+	</product>
+
+	<product>
+		<id>offering-v2.0</id>
+        <categoryName>Application Services</categoryName>
+        <categoryOrder>500</categoryOrder>	
+        <categorySequence>1500</categorySequence>		
+		<productClassification>Cloud</productClassification>
+		<productLogo>offering</productLogo>
+		<name>Offering</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about Cloud Deployments</title>
+		<url>http://www.rackspace.com</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>1500</order>
+		</sequence>
+		<sectionId>offering-v2.0</sectionId>
+	</product>							
+   <!-- Security & Supporting Services Products -->
+   <!-- Security & Supporting Services Products -->
+	<product>
+		<id>auth-v1.1</id>
+        <categoryName>Security &amp; Supporting Services</categoryName>
+        <categoryOrder>600</categoryOrder>	
+        <categorySequence>100</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>identity</productLogo>
+		<name>Identity</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title></title>
+		<url></url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-identity.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-identity.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>100</order>
+		</sequence>
+		<sectionId>identity</sectionId>
+	</product>
+	<product>
+		<id>cloud-feeds-v1.0</id>
+        <categoryName>Security &amp; Supporting Services</categoryName>
+        <categoryOrder>600</categoryOrder>	
+        <categorySequence>200</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>feeds</productLogo>
+		<name>Feeds</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Feeds product page</title>
+		<url></url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-cloudfeeds.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-cloudfeeds.png</icon2>
+		<sequence>
+			<column>2</column>
+			<order>200</order>
+		</sequence>
+		<sectionId>feeds</sectionId>
+	</product>
+	<product>
+		<id>keep-v1.0</id>
+        <categoryName>Security &amp; Supporting Services</categoryName>
+        <categoryOrder>600</categoryOrder>	
+        <categorySequence>300</categorySequence>		
+		<productClassification>Cloud</productClassification>
+		<productLogo>keep</productLogo>
+		<name>Keep</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click for more information about Cloud Keep</title>
+		<url></url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>300</order>
+		</sequence>
+		<sectionId>keep-v1.0</sectionId>
+	</product>
+	
+	<product>
+		<id>cmet-v1.0</id>
+        <categoryName>Security &amp; Supporting Services</categoryName>
+        <categoryOrder>600</categoryOrder>	
+        <categorySequence>400</categorySequence>			
+		<productClassification>Cloud</productClassification>
+		<productLogo>metrics</productLogo>
+		<name>Metrics</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace Cloud Metrics product page</title>
+		<url></url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>2</column>
+			<order>400</order>
+		</sequence>
+		<sectionId>cmet-v1.0</sectionId>
+	</product>	
+		
+	<!-- OpenStack Private Cloud Products -->		
+	<product>
+	  <id>rpc-v4</id>
+      <categoryName>OpenStack Private Cloud</categoryName>
+      <categoryOrder>700</categoryOrder>	
+      <categorySequence>100</categorySequence>	  
+	  <productClassification>Rackspace</productClassification>
+	  <productLogo>private-cloud</productLogo>
+	  <name>Private Cloud V4</name>
+	  <hasTradeMark>false</hasTradeMark>
+	  <title>Click for more information about Rackspace Private Cloud</title>
+	  <url>http://www.rackspace.com</url>
+	  <icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-private-cloud.png</icon1>
+	  <icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-private-cloud.svg</icon2>
+	  <sequence>
+	    <column>2</column>
+	    <order>100</order>
+	  </sequence>
+	  <sectionId>rpc-v4</sectionId>
+	</product>
+
+	<product>
+	  <id>rpc-v9</id>
+      <categoryName>OpenStack Private Cloud</categoryName>
+      <categoryOrder>700</categoryOrder>	
+      <categorySequence>200</categorySequence>	  
+	  <productClassification>Rackspace</productClassification>
+	  <productLogo>private-cloud</productLogo>
+	  <name>Private Cloud V9</name>
+	  <hasTradeMark>false</hasTradeMark>
+	  <title>Click for more information about Rackspace Private Cloud</title>
+	  <url>http://www.rackspace.com</url>
+	  <icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-private-cloud.png</icon1>
+	  <icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-private-cloud.svg</icon2>
+	  <sequence>
+	    <column>2</column>
+	    <order>200</order>
+	  </sequence>
+	  <sectionId>rpc-v9</sectionId>
+	</product>			
+
+	<product>
+	  <id>rpc-v10</id>
+      <categoryName>OpenStack Private Cloud</categoryName>
+      <categoryOrder>700</categoryOrder>	
+      <categorySequence>300</categorySequence>	  
+	  <productClassification>Rackspace</productClassification>
+	  <productLogo>private-cloud</productLogo>
+	  <name>Private Cloud V10</name>
+	  <hasTradeMark>false</hasTradeMark>
+	  <title>Click for more information about Rackspace Private Cloud</title>
+	  <url>http://www.rackspace.com</url>
+	  <icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-private-cloud.png</icon1>
+	  <icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-private-cloud.svg</icon2>
+	  <sequence>
+	    <column>2</column>
+	    <order>300</order>
+	  </sequence>
+	  <sectionId>rpc-v10</sectionId>
+	</product>	
+		
+    <!-- SDK has no categoryName nor categoryOrder -->
+	<product>
+		<id>sdks</id>
+		<productClassification>Rackspace</productClassification>
+		<productLogo>sdks</productLogo>		
+		<name>SDKs</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace SDK product page</title>
+		<url>sdks/guide/content/intro.html</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>3</column>
+			<order>10</order>
+		</sequence>
+		<sectionId>sdks</sectionId>
+	</product>
+	
+	<!-- Resources has no categName nor categoryOrder -->
+	<product>
+		<id>resources</id>
+		<productClassification>Rackspace</productClassification>
+		<productLogo>resources</productLogo>
+		<name>Resources</name>
+		<hasTradeMark>false</hasTradeMark>
+		<title>Click to visit the Rackspace SDK product page</title>
+		<url>sdks/guide/content/intro.html</url>
+		<icon1>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.png</icon1>
+		<icon2>https://7d69c24efa79ed2429e6-1e1c5ac10380ee72a01b057764b93d72.ssl.cf1.rackcdn.com/icon-servers.svg</icon2>
+		<sequence>
+			<column>3</column>
+			<order>20</order>
+		</sequence>
+		<sectionId>resources</sectionId>
+	</product>	
+
+</products>

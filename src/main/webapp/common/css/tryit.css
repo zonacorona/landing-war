@@ -1,0 +1,85 @@
+
+#controller{
+	font-family: verdana,geneva,arial,helvetica,sans-serif;
+}
+
+.credentials{
+    border-width: 1px;
+    width: 400px;
+    height: 185px;
+    border-color:#AABBCC;
+    border-style: solid;
+    background: -webkit-gradient(linear, left top, left bottom, from(#556677), to(#AABBCD));
+    background: -moz-linear-gradient(top, #556677, #AABBCD);	
+}
+
+.credentialsform{
+	position: relative;
+	
+}
+
+.commandborder{
+	
+}
+
+.headertitle{
+	
+}
+
+#credentialstext{
+	
+}
+
+#unpass{
+	position:relative;
+	top:10px;
+}
+
+#unamelabel{
+	position:relative;	
+}
+
+#unametext{
+	font-size: 13px;
+	position:relative;	
+	left: 15px;
+}
+
+#passlabel{
+	position:relative;	
+	top:10px;
+}
+
+#passtext{
+	font-size: 13px;
+	position:relative;
+	left:28px;
+	top:10px;
+}
+
+#authbtn{
+    background: -webkit-linear-gradient(top,#136001 0,#348208 50%,#48960b 100%);
+    background-image: -webkit-linear-gradient(top, rgb(19, 96, 1) 0px, rgb(52, 130, 8) 50%, rgb(72, 150, 11) 100%);
+    background-color: #48960b;
+    background: -o-linear-gradient(top,#136001 0,#348208 50%,#48960b 100%);
+    background: -ms-linear-gradient(top,#136001 0,#348208 50%,#48960b 100%);	
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    padding: 10px 20px 8px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    text-decoration: none;
+    display: block;
+    -moz-box-shadow: 0 2px 6px -3px #000;
+    -webkit-box-shadow: 0 2px 6px -3px #000;
+    box-shadow: 0 2px 6px -3px #000;    
+    -webkit-border-radius: 6px;	
+    width: 90px;
+    cursor:pointer;
+    position: relative;
+    top: 47px;
+    float: right;
+    right: 22px;
+}

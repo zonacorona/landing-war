@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products xmlns:xlink="http://www.w3.org/1999/xlink">
+   <latestpdf>cf-releasenotes-latest.pdf</latestpdf>
+   <pdfoutname>cf-releasenotes-20140430.pdf</pdfoutname>
+   <docname>Rackspace Cloud Files™ Release Notes</docname>
+   <productname>Rackspace Cloud Files™</productname>
+   <webappname>cf-releasenotes</webappname>
+   <pominfo>
+      <groupid>com.rackspace.cloud.apidocs</groupid>
+      <artifactid>cloud-files</artifactid>
+      <version>1.0.0-SNAPSHOT</version>
+      <pomname>Cloud Files API Docs</pomname>
+   </pominfo>
+   <product>
+      <id>files-v1</id>
+      <types>
+         <type>
+            <id>100</id>
+            <displayname>Release Notes</displayname>
+            <url>/files/api/v1/cf-releasenotes/content/preface.html</url>
+            <sequence>30</sequence>
+         </type>
+      </types>
+   </product>
+   <emails>
+      <email>
+         <name>CDT Publication Events</name>
+         <to>cdt-publication-events@lists.rackspace.com</to>
+         <from>clouddoctoolsteam@lists.rackspace.com</from>
+      </email>
+   </emails>
+</products>
